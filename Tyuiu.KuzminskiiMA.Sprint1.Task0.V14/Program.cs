@@ -31,4 +31,4 @@ namespace Tyuiu.KuzminskiiMA.Sprint1.Task0.V14
         }
     }
 }
-//ASasas
+//ASasa
