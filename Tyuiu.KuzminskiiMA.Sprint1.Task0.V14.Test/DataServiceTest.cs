@@ -1,4 +1,4 @@
-﻿using Tyuiu.KuzminskiiMA.Sprint1.Task0.V14.Lib;
+using Tyuiu.KuzminskiiMA.Sprint1.Task0.V14.Lib;
 
 namespace Tyuiu.KuzminskiiMA.Sprint1.Task0.V14.Test
 {
@@ -6,12 +6,13 @@ namespace Tyuiu.KuzminskiiMA.Sprint1.Task0.V14.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void ValidExpression()
+        public void Calculate_Returns25()
         {
-            DataService ds = new DataService();
-            var res = ds.Calculate();
-            Assert.AreEqual(25, res);
+            DataService dataService = new DataService();
+
+            int result = dataService.Calculate();
+
+            Assert.AreEqual(25, result);
         }
     }
 }
-//sasas
