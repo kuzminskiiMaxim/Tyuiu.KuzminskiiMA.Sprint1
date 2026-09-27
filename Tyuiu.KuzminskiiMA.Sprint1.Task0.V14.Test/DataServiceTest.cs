@@ -10,7 +10,7 @@ namespace Tyuiu.KuzminskiiMA.Sprint1.Task0.V14.Test
         {
             DataService dataService = new DataService();
 
-            int result = dataService.Calculate();
+            double result = dataService.Calculate();
 
             Assert.AreEqual(25, result);
         }
